@@ -10,7 +10,7 @@ try: api_hash = os.environ.get("api_hash", "908e732e523a2fa88cb2599873c98eb1")
 except Exception as api_id: print(f"⚠️ Api Hash Invalid {api_hash}")
 try: bot_token = os.environ.get("bot_token", "6631800327:AAEX-fEC7DHLYgnO-i8r7BEvhkAoMIxL87Q")
 except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
-try: custom_caption = os.environ.get("custom_caption", "⚡🗂 𝗙𝗶𝗹𝗲: <b><font class=smcp>{file_name}</font></b>\n📀 𝗦𝗶𝘇𝗲: <b><font class=smcp>{file_size}</font></b>\n\n<b>🔰 Cʀᴇᴀᴛᴏʀ : <a href="https://t.me/parshucr">MOVIE KING👑</a>\n🔰 Cʜᴀɴɴᴇʟ : <a href="https://t.me/pcnewmoviez">𝐌𝐎𝐕𝐈𝐄𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋</a>\n🔰 Gʀᴏᴜᴘ : <a href="https://t.me/pcmoviedemand">𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏</a></b>")
+try: custom_caption = os.environ.get("custom_caption", "⚡<b>File uploaded by [PC MOVIEZ™](https://t.me/pcmoviedemand)</b>⚡\n`{file_name}`\n🔥  ↭ <b>Join Now [PC MOVIEZ™](https://t.me/pcmoviedemand)</b> ↭  🔥")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
 
 AutoCaptionBotV1 = pyrogram.Client(
