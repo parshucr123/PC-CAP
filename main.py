@@ -4,13 +4,13 @@
 
 import pyrogram, os, asyncio
 
-try: app_id = int(os.environ.get("app_id", "20268838"))
+try: app_id = int(os.environ.get("app_id"))
 except Exception as app_id: print(f"⚠️ App ID Invalid {app_id}")
-try: api_hash = os.environ.get("api_hash", "908e732e523a2fa88cb2599873c98eb1")
+try: api_hash = os.environ.get("api_hash")
 except Exception as api_id: print(f"⚠️ Api Hash Invalid {api_hash}")
-try: bot_token = os.environ.get("bot_token", "6631800327:AAEX-fEC7DHLYgnO-i8r7BEvhkAoMIxL87Q")
+try: bot_token = os.environ.get("bot_token")
 except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
-try: custom_caption = os.environ.get("custom_caption", "⚡<b>File uploaded by [PC MOVIEZ™](https://t.me/pcmoviedemand)</b>⚡\n`{file_name}`\n🔥  ↭ <b>Join Now [PC MOVIEZ™](https://t.me/pcmoviedemand)</b> ↭  🔥")
+try: custom_caption = os.environ.get("custom_caption", "⚡<b>File uploaded by [PC MOVIEZ™](https://t.me/+Z-BGvaGXzYIyNjk1)</b>⚡\n`{file_name}`\n🔥  ↭ <b>Join Now [PC MOVIEZ™](https://t.me/+Z-BGvaGXzYIyNjk1)</b> ↭  🔥")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
 
 AutoCaptionBotV1 = pyrogram.Client(
@@ -24,7 +24,7 @@ start_message = """
 
 about_message = """
 <b>• Name : <a href=https://t.me/parshucr>PC AutoCaption</a></b>
-<b>• Developer : <a href=https://t.me/pcmoviedemand>[PC MOVIEZ]</a></b>
+<b>• Developer : <a href=https://t.me/parshucr>[MOVIE KING👑 ]</a></b>
 <b>• Language : Python3</b>
 <b>• Library : Pyrogram v{version}</b>
 <b>• Updates : <a href=https://t.me/pcnewmoviez>Click Here</a></b>
